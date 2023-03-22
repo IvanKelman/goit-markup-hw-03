@@ -1,0 +1,271 @@
+body{
+font-family: "Roboto",
+    sans-serif;
+color: #434455;
+background-color: #FFFFFF;
+
+}
+.list{ list-style: none;
+
+}
+.link{ text-decoration: none;
+
+}
+:root {
+    --brand-color: #3f51b5;}
+
+/* -----------heder----------- */
+.top-header{
+
+}
+.navigation{
+
+}
+.logo{ 
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:#4d5ae5
+}
+.logo-color{
+color:#2e2f42
+}
+
+
+.header-list{
+
+}
+
+
+.header-link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.header-link:is(:hover, :focus){ color:#404BBF}
+
+.header-address{
+}
+
+.mail-list{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;;
+    color: #434455;
+}
+
+.mail-list:is(:hover, :focus) {
+    color: #404BBF
+}
+
+/* -----------section1----------- */
+.hero{background: #2E2F42;
+
+}
+
+.hero-text{
+
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+
+.hero-btn{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #4D5AE5;}
+
+    .hero-btn:is(:hover, :focus) {
+    background-color: #404BBF;
+    cursor: pointer;}
+
+
+
+/* ---------------------------------section1------------------------ */
+.hidden-sektion{
+    
+}
+
+.products-procesing{
+
+}
+.products-procesing-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+
+.products-procesing-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+
+/* -----------section3----------- */
+.projekt{
+
+}
+.projekt-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+
+}
+.projekt-list{
+
+}
+.projekt-foto{
+
+}
+/* -----------section4----------- */
+.team-sektion{
+    background-color: #F4F4FD
+}
+
+
+.team{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:#2e2f42
+}
+.team-item{
+
+}
+
+.team-list-foto{
+background-color: #FFFFFF;
+}
+
+.team-foto{
+
+}
+.team-name{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.team-position{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+.team-foto{
+
+}
+/* -----------footer----------- */
+.dottom-sektion{
+    background-color: #2e2f42;
+}
+.logo-color-footer{
+    color: #f4f4fd;
+}
+.logo-footer{
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5
+
+}
+
+.footer-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd
+
+}
+/* ------------------ sektione1(portfolio) ------------- */
+.filters{
+
+}
+.portrtfolio-list {
+
+}
+.filters-btn{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4d5ae5;
+    background-color:#F4F4FD
+}
+
+    .filters-btn:is(:hover, :focus) {
+    color: #FFFFFF;
+    background-color: #404BBF;
+    cursor: pointer
+}
+
+/* ------------------ sektione2 (portfolio) ------------- */
+.sektion-btn{
+
+}
+.btn-list{
+
+}
+.img-btn{
+    cursor: pointer
+}
+.sektion-btn-name-app{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.sektion-btn-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
