@@ -25,8 +25,9 @@ margin: 0;
 
 }
 .contejner{
-width: 1128px;
+width: 1152px;
 margin: auto;
+
 }
 .header-cobntejner{
     display: flex;
@@ -132,6 +133,7 @@ display: flex;
     
 }
 .products-procesing-contejner{
+    margin-top: 120px;
 
 }
 
@@ -176,10 +178,13 @@ padding-left: 0;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-top: 120px;
 
 }
 .projekt-contejner{
     display: flex;
+    margin-top: 72px;
+    margin-bottom: 120px;
 }
 
 .projekt-list{
@@ -192,10 +197,14 @@ margin-right: 24px;
 }
 /* -----------section4----------- */
 .team-sektion{
-    background-color: #F4F4FD
+    background-color: #F4F4FD;
+    height: 732px;
 }
 
 .team-contejner{
+    margin-top: 120px;
+    margin-bottom: 120px;
+
 
 }
 .team{
@@ -205,7 +214,8 @@ margin-right: 24px;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color:#2e2f42
+    color:#2e2f42;
+    padding-top: 120px;
 
 }
 .team-item{
@@ -296,12 +306,19 @@ margin-right: 24px;
     text-align: center;
     letter-spacing: 0.04em;
     color: #4d5ae5;
-    background-color:#F4F4FD;
+    background-color:#F4F4FD transparent;
     cursor: pointer;
     padding: 12px 24px 12px 24px;
-    border-radius: 5px;
+    border-radius: 4px;
     margin-right: 24px;
-    
+    display: flex;
+    border: 1px solid #E7E9FC;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    height: 48px;
+    background: #F4F4FD;
 }
 
     .filters-btn:is(:hover, :focus) {
@@ -314,8 +331,15 @@ margin-right: 24px;
 .sektion-btn{
 
 }
-.btn-list{
+.lisr-item-btn{
+    margin-right: 24px;
+    margin-bottom: 48px;
+}
 
+.btn-list{
+display: flex;
+flex-wrap: wrap;
+padding-left: 0;
 }
 .img-btn{
     cursor: pointer
