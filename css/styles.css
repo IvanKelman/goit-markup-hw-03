@@ -1,9 +1,9 @@
 body{
-font-family: "Roboto",
-    sans-serif;
+font-family: "Roboto", sans-serif;
 color: #434455;
 background-color: #FFFFFF;
-
+padding: 0;
+margin: 0;
 }
 .list{ list-style: none;
 
@@ -19,7 +19,17 @@ background-color: #FFFFFF;
 
 }
 .navigation{
+    display: flex;
+    margin-right: auto;
+    
 
+}
+.contejner{
+width: 1128px;
+margin: auto;
+}
+.header-cobntejner{
+    display: flex;
 }
 .logo{ 
     font-family: "Raleway", sans-serif;
@@ -31,7 +41,9 @@ background-color: #FFFFFF;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color:#4d5ae5
+    color:#4d5ae5;
+
+
 }
 .logo-color{
 color:#2e2f42
@@ -39,7 +51,7 @@ color:#2e2f42
 
 
 .header-list{
-
+display: flex;
 }
 
 
@@ -49,11 +61,16 @@ color:#2e2f42
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin: 20px;
 }
 
 .header-link:is(:hover, :focus){ color:#404BBF}
 
 .header-address{
+
+}
+.header-address-list{
+    display: flex;
 }
 
 .mail-list{
@@ -62,6 +79,7 @@ color:#2e2f42
     font-size: 16px;
     line-height: 1.5;;
     color: #434455;
+    margin-right: 40px;
 }
 
 .mail-list:is(:hover, :focus) {
@@ -69,31 +87,39 @@ color:#2e2f42
 }
 
 /* -----------section1----------- */
-.hero{background: #2E2F42;
-
+.hero{
+    background: #2E2F42;
+    height: 600px;
 }
 
 .hero-text{
-
+    max-width: 496px;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    padding-top: 188px;
+    margin: auto;
+    padding-bottom: 48px;
 }
 
 
 .hero-btn{
+    width: 169px;
+    height: 56px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
+    display: block;
     align-items: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-    background: #4D5AE5;}
+    background: #4D5AE5;
+    margin: auto;
+}
 
     .hero-btn:is(:hover, :focus) {
     background-color: #404BBF;
@@ -101,13 +127,18 @@ color:#2e2f42
 
 
 
-/* ---------------------------------section1------------------------ */
+/* ---------------------------------section2------------------------ */
 .hidden-sektion{
     
 }
+.products-procesing-contejner{
+
+}
 
 .products-procesing{
-
+    width: 1128;
+display: flex;
+padding-left: 0;
 }
 .products-procesing-title{
     font-weight: 500;
@@ -115,14 +146,21 @@ color:#2e2f42
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    width: 264px;
 }
 
 
 .products-procesing-text{
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    width: 264px;
+    
+}
+.list-produkt{
+    margin-right: 24px;
 }
 
 
@@ -140,18 +178,26 @@ color:#2e2f42
     color: #2e2f42;
 
 }
+.projekt-contejner{
+    display: flex;
+}
+
 .projekt-list{
+    display: flex;
+    padding-left: 0;
 
 }
 .projekt-foto{
-
+margin-right: 24px;
 }
 /* -----------section4----------- */
 .team-sektion{
     background-color: #F4F4FD
 }
 
+.team-contejner{
 
+}
 .team{
     font-weight: 700;
     font-size: 36px;
@@ -160,13 +206,16 @@ color:#2e2f42
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color:#2e2f42
+
 }
 .team-item{
-
+    display: flex;
+    padding-left: 0;
 }
 
 .team-list-foto{
 background-color: #FFFFFF;
+margin-right: 24px;
 }
 
 .team-foto{
@@ -193,7 +242,12 @@ background-color: #FFFFFF;
 /* -----------footer----------- */
 .dottom-sektion{
     background-color: #2e2f42;
+    height: 312px;
 }
+.logo-footer{
+    padding-top: 100px  ;
+}
+
 .logo-color-footer{
     color: #f4f4fd;
 }
@@ -224,8 +278,14 @@ background-color: #FFFFFF;
 
 }
 .portrtfolio-list {
+    display: flex;
+    padding-left: 0;
+    margin: 96px 271px 72px 271px;
 
 }
+.portfolio-item{
+}
+
 .filters-btn{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -236,7 +296,12 @@ background-color: #FFFFFF;
     text-align: center;
     letter-spacing: 0.04em;
     color: #4d5ae5;
-    background-color:#F4F4FD
+    background-color:#F4F4FD;
+    cursor: pointer;
+    padding: 12px 24px 12px 24px;
+    border-radius: 5px;
+    margin-right: 24px;
+    
 }
 
     .filters-btn:is(:hover, :focus) {
@@ -268,4 +333,7 @@ background-color: #FFFFFF;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+.footer-text{
+    width: 264px;
 }
