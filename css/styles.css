@@ -5,9 +5,16 @@ background-color: #FFFFFF;
 padding: 0;
 margin: 0;
 }
-.list{ list-style: none;
-
+.list{ list-style: none; 
+    padding: 0;
+    margin: 0;
 }
+
+h1, h2, h3, h4, h5, h6{ margin: 0; }
+
+p{ margin: 0;}
+
+
 .link{ text-decoration: none;
 
 }
@@ -15,8 +22,7 @@ margin: 0;
     --brand-color: #3f51b5;}
 
 /* -----------heder----------- */
-.top-header{
-
+.top-header{border: solid 1px #E7E9FC;
 }
 .navigation{
     display: flex;
@@ -25,8 +31,10 @@ margin: 0;
 
 }
 .contejner{
-width: 1152px;
+width: 1158px;
 margin: auto;
+padding: 0 15px;
+
 
 }
 .header-cobntejner{
@@ -43,6 +51,7 @@ margin: auto;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:#4d5ae5;
+    margin-right: 76px;
 
 
 }
@@ -53,25 +62,35 @@ color:#2e2f42
 
 .header-list{
 display: flex;
+
 }
 
 
 .header-link{
+    display: flex;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    align-items: center;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    margin: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
 }
 
 .header-link:is(:hover, :focus){ color:#404BBF}
 
-.header-address{
+.header-item{margin-right: 40px;}
 
+.header-address{
+padding: 20px 0;
 }
 .header-address-list{
     display: flex;
+}
+.header-address-item{
+    margin-right: 40px;
 }
 
 .mail-list{
@@ -80,7 +99,7 @@ display: flex;
     font-size: 16px;
     line-height: 1.5;;
     color: #434455;
-    margin-right: 40px;
+    gap: 40px;
 }
 
 .mail-list:is(:hover, :focus) {
@@ -90,7 +109,7 @@ display: flex;
 /* -----------section1----------- */
 .hero{
     background: #2E2F42;
-    height: 600px;
+padding: 188px 0;
 }
 
 .hero-text{
@@ -101,9 +120,8 @@ display: flex;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    padding-top: 188px;
     margin: auto;
-    padding-bottom: 48px;
+    margin-bottom: 48px;
 }
 
 
@@ -120,6 +138,7 @@ display: flex;
     color: #FFFFFF;
     background: #4D5AE5;
     margin: auto;
+    border-radius: 4px;
 }
 
     .hero-btn:is(:hover, :focus) {
@@ -129,18 +148,18 @@ display: flex;
 
 
 /* ---------------------------------section2------------------------ */
+.setion-produkt-procesing{padding: 120px 0;
+}
+
 .hidden-sektion{
     
 }
 .products-procesing-contejner{
-    margin-top: 120px;
 
 }
 
 .products-procesing{
-    width: 1128;
 display: flex;
-padding-left: 0;
 }
 .products-procesing-title{
     font-weight: 500;
@@ -148,7 +167,7 @@ padding-left: 0;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    width: 264px;
+
 }
 
 
@@ -178,32 +197,29 @@ padding-left: 0;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-    margin-top: 120px;
 
 }
 .projekt-contejner{
     display: flex;
-    margin-top: 72px;
-    margin-bottom: 120px;
+    padding-top: 72px;
 }
 
 .projekt-list{
     display: flex;
-    padding-left: 0;
+    gap: 24px ;
 
 }
 .projekt-foto{
-margin-right: 24px;
+display: block;
 }
 /* -----------section4----------- */
 .team-sektion{
     background-color: #F4F4FD;
-    height: 732px;
+    padding: 120px;
+
 }
 
 .team-contejner{
-    margin-top: 120px;
-    margin-bottom: 120px;
 
 
 }
@@ -215,21 +231,26 @@ margin-right: 24px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color:#2e2f42;
-    padding-top: 120px;
+    margin-bottom: 72px;
+
 
 }
 .team-item{
     display: flex;
-    padding-left: 0;
+    gap: 24px;
+
 }
 
 .team-list-foto{
 background-color: #FFFFFF;
-margin-right: 24px;
+
 }
 
 .team-foto{
 
+}
+.text-contejner{
+    padding: 32px 0;
 }
 .team-name{
     font-weight: 500;
@@ -238,6 +259,7 @@ margin-right: 24px;
     text-align: center;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 .team-position{
     font-weight: 400;
@@ -250,12 +272,16 @@ margin-right: 24px;
 
 }
 /* -----------footer----------- */
-.dottom-sektion{
+.bottom-sektion{
     background-color: #2e2f42;
-    height: 312px;
+    padding: 100px 0;
 }
 .logo-footer{
-    padding-top: 100px  ;
+margin-bottom: 8px;
+}
+
+.footer-text {
+    width: 264px;
 }
 
 .logo-color-footer{
@@ -290,8 +316,9 @@ margin-right: 24px;
 .portrtfolio-list {
     display: flex;
     padding-left: 0;
-    margin: 96px 271px 72px 271px;
-
+    margin-bottom: 72px;
+    margin-top: 96px;
+    justify-content: center;
 }
 .portfolio-item{
 }
@@ -314,7 +341,6 @@ margin-right: 24px;
     display: flex;
     border: 1px solid #E7E9FC;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
     padding: 12px 24px;
     height: 48px;
@@ -326,20 +352,24 @@ margin-right: 24px;
     background-color: #404BBF;
     cursor: pointer
 }
-
+.btn-contejner{
+    border: bottom, left, right,#E7E9FC  1px; 
+    padding: 32px;
+}
 /* ------------------ sektione2 (portfolio) ------------- */
 .sektion-btn{
 
 }
 .lisr-item-btn{
-    margin-right: 24px;
-    margin-bottom: 48px;
+
+    
 }
 
 .btn-list{
 display: flex;
 flex-wrap: wrap;
-padding-left: 0;
+gap: 24px;
+
 }
 .img-btn{
     cursor: pointer
@@ -358,6 +388,14 @@ padding-left: 0;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.footer-text{
-    width: 264px;
+.btn-contejner{
+    border-right-width:  1px; 
+    border-right-style: solid ;
+    border-right-color: #E7E9FC;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #E7E9FC;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #E7E9FC;
 }
