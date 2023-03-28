@@ -111,7 +111,9 @@ padding: 20px 0;
     background: #2E2F42;
 padding: 188px 0;
 }
-
+.hero-contejner{
+    
+}
 .hero-text{
     max-width: 496px;
     font-weight: 700;
@@ -139,16 +141,20 @@ padding: 188px 0;
     background: #4D5AE5;
     margin: auto;
     border-radius: 4px;
+    border: none;
 }
 
     .hero-btn:is(:hover, :focus) {
     background-color: #404BBF;
-    cursor: pointer;}
+    cursor: pointer;
+    border: none;}
+    
 
 
 
 /* ---------------------------------section2------------------------ */
-.setion-produkt-procesing{padding: 120px 0;
+.setion-produkt-procesing{
+    padding: 120px 0;
 }
 
 .hidden-sektion{
@@ -167,6 +173,7 @@ display: flex;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 8px;
 
 }
 
@@ -197,25 +204,31 @@ display: flex;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin: auto;
+    margin-bottom: 72px;
 
 }
 .projekt-contejner{
     display: flex;
-    padding-top: 72px;
+    flex-wrap: wrap;
+    margin-top: 72px;
 }
 
 .projekt-list{
     display: flex;
     gap: 24px ;
+    padding-bottom: 120px;
 
 }
 .projekt-foto{
 display: block;
+    width: 100%;
+    height: auto;
 }
 /* -----------section4----------- */
 .team-sektion{
     background-color: #F4F4FD;
-    padding: 120px;
+    padding: 120px 0;
 
 }
 
@@ -246,7 +259,9 @@ background-color: #FFFFFF;
 
 }
 
-.team-foto{
+.team-foto{display: block;
+    width: 100%;
+    height: auto;
 
 }
 .text-contejner{
@@ -316,9 +331,12 @@ margin-bottom: 8px;
 .portrtfolio-list {
     display: flex;
     padding-left: 0;
-    margin-bottom: 72px;
-    margin-top: 96px;
+    padding-top: 96px ;
+    padding-bottom: 72px ;
+
     justify-content: center;
+    gap: 24px;
+
 }
 .portfolio-item{
 }
@@ -337,12 +355,10 @@ margin-bottom: 8px;
     cursor: pointer;
     padding: 12px 24px 12px 24px;
     border-radius: 4px;
-    margin-right: 24px;
     display: flex;
     border: 1px solid #E7E9FC;
     flex-direction: row;
     align-items: center;
-    padding: 12px 24px;
     height: 48px;
     background: #F4F4FD;
 }
@@ -380,6 +396,7 @@ gap: 24px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 .sektion-btn-text{
     font-weight: 400;
