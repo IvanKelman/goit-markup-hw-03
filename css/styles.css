@@ -88,6 +88,7 @@ padding: 20px 0;
 }
 .header-address-list{
     display: flex;
+    gap: 40px;
 }
 .header-address-item{
     margin-right: 40px;
@@ -194,7 +195,7 @@ display: flex;
 
 /* -----------section3----------- */
 .projekt{
-
+padding-bottom: 120px;
 }
 .projekt-title{
     text-align: center;
@@ -211,14 +212,12 @@ display: flex;
 .projekt-contejner{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 72px;
+
 }
 
 .projekt-list{
     display: flex;
     gap: 24px ;
-    padding-bottom: 120px;
-
 }
 .projekt-foto{
 display: block;
@@ -331,13 +330,15 @@ margin-bottom: 8px;
 .portrtfolio-list {
     display: flex;
     padding-left: 0;
-    padding-top: 96px ;
-    padding-bottom: 72px ;
-
+    margin-top: 96px ;
+    margin-bottom: 72px ;
     justify-content: center;
     gap: 24px;
 
 }
+img{display: block;
+max-width: 100%;
+height: auto;}
 .portfolio-item{
 }
 
@@ -384,7 +385,7 @@ margin-bottom: 8px;
 .btn-list{
 display: flex;
 flex-wrap: wrap;
-gap: 24px;
+gap: 48px 24px;
 
 }
 .img-btn{
